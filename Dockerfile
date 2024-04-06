@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 # read the doc: https://huggingface.co/docs/hub/spaces-sdks-docker
 # you will also find guides on how best to write your Dockerfile
-FROM node:20 as builder-production
+FROM node:18 as builder-production
 
 WORKDIR /app
 
